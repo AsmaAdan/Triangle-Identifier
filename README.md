@@ -9,23 +9,33 @@
 #### Want to test how I did this project?
 ##### Here are the specs:
 *The program sould return when a value is below 0 or is 0:
+
     Input:0
+    
     Output: Not a triangle
     
 *The program should return when a combination of two sides is less or equal to the other side
+
     Input: (A+B <= C) or (B+C <= A) or (C+A <= B)
+    
     Output: Not a triangle
    
 *The Program should return Equlateral when 3 sides inputed are equal
+
     Input: 35, 35, 35
+    
     Output: Equilateral Triangle
   
 *The Program should return Isosceles if 2 sides are equal
+
     Input: 35, 35, 50
+    
     Output: Isosceles Triangle
    
 *The Program should return Scalene if 3 sides are not equal
+
     Input: 36, 20, 50
+    
     Output: Scalene Triangle
     
 ## Setup
