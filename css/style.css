@@ -1,0 +1,29 @@
+.important{width: 58%;
+           padding: 30px;
+           border: 8px;
+           margin: 9px;
+           height: auto;
+}
+.not {float:inherit;
+      color: red;
+}
+body{ background-color: #008B8B;
+
+}
+h1 {color: black;
+    text-align: center;
+    font-style: italic;
+    font-size: 48;
+}
+h2 {color:
+    text-align: center;
+    font-size: 38;
+}
+
+
+p {font-style: italic;
+   
+
+}
+
+@media all
