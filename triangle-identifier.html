@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>An app for Triangle Identification</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+
   </head>
   <body>
     <h1>Triangle Identifier</h1>
@@ -13,16 +13,16 @@
      Every triangle has three sides and three angles, some of which may be the same.
      The sides of a triangle are given special names in the case of a right triangle, with the side opposite the right angle being termed the hypotenuse and the other two sides being known as the legs.
      All triangles are convex and bicentric. That portion of the plane enclosed by the triangle is called the triangle interior, while the remainder is the exterior.</p>
+
     <p>
-      Base: <input type ="text" size ="6" id = "base"/>
+      Base:   <input type ="text" name= "base" id = "base">
       <br>
-      Height: <input type ="text" size ="6" id = "height"/>
+      Height: <input type ="text" name="height" id = "height">
       <br>
-      length: <input type ="text" size ="6" id = "length"/>
+      Length: <input type ="text" name="length" id = "length">
       <br>
-      <button type ="button" onclick="triangleIdentifier()">Identify<button>
-    </p>
-    <p id="output">Identity = </p>
+      <button type="button" onclick="triangleIdentifier()">Identify</button>
+    <p id="output">Identity = ?</p>
 
       <script src="js/scripts.js"></script>
   </body>
