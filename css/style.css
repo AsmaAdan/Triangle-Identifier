@@ -1,4 +1,4 @@
-.important{width: 58%;
+.important{width: 80%;
            padding: 30px;
            border: 8px;
            margin: 9px;
@@ -7,9 +7,10 @@
 .not {float:inherit;
       color: red;
 }
-body{ background-color: #008B8B;
 
+body {background-color: #66CDAA;
 }
+
 h1 {color: black;
     text-align: center;
     font-style: italic;
@@ -20,10 +21,9 @@ h2 {color:
     font-size: 38;
 }
 
-
 p {font-style: italic;
-   
-
 }
-
-@media all
+@media screen and (min-width: 300px) {
+  body {
+    background-color: black;
+    color: white;

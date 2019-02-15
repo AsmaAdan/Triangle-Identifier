@@ -10,11 +10,10 @@ function triangleIdentifier() {
   var typesOfTriangles = ["Equilateral triangle", "Isosceles triangle", "Scalene triangle"];
   var output = document.getElementById("output")
 
-  if (isNaN(base)|| isNaN(base)||isNaN(base)){
-  document.getElementById("output").innerHTML="You have not put any numbers";
+  if (base + height < length || base +length < height || length + height < base){
+  document.getElementById("output").innerHTML="Not a triangle";
 }
-
-  if (base <= 0|| height <= 0|| length <= 0) {
+  else if (base <= 0|| height <= 0|| length <= 0) {
 	document.getElementById("output").innerHTML="Not a triangle"; //* Meant to reject detect a zero or a negative value
 }
   else if (height == base && base == length && height == length) {
