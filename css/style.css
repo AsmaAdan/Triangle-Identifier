@@ -1,11 +1,12 @@
-.important{width: 80%;
-           padding: 30px;
-           border: 8px;
-           margin: 9px;
+.important{width: 90%;
+           padding: 50px;
+           border: 10px;
+           margin: 12px;
            height: auto;
 }
 .not {align-items: center;
-      color: red;
+      color: brown;
+      font-size: 40;
 }
 
 body {background-color: #FFF8DC;
@@ -28,7 +29,6 @@ h3 {color: red;
 .output{border-style: solid;
         border-width: medium;
         border-color: #D2691E;
-        size: 8;
         margin-right: 2px;
 }
 p {text-align: center;
