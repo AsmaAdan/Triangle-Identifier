@@ -12,13 +12,13 @@ function triangleIdentifier() {
 
 
   if (base <= 0|| height <= 0|| length <= 0) {
-	   document.getElementById("output").innerHTML="can't make a triangle"; //* Meant to reject detect a zero or a negative value
+	   document.getElementById("output").innerHTML="These values can't make a triangle"; //* Meant to reject detect a zero or a negative value
 }
   else if (base + height < length || base +length < height || length + height < base){
   document.getElementById("output").innerHTML="These values don't make a triangle"; //* Meant to reject values which may not make a triangle
 }
   else if (height == base && base == length && height == length) {
-	   document.getElementById("output").innerHTML="This is a " + typesOfTriangles[0]; //* Meant to detect if it an Equilateral triangle
+	   document.getElementById("output").innerHTML="This is an " + typesOfTriangles[0]+ "(image 2)"; //* Meant to detect if it an Equilateral triangle
  }
   else if ( height == base || height == length || length == base ) {
 	   document.getElementById("output").innerHTML= "This is an " + typesOfTriangles[1]; //* Meant to detect if it is an Isosceles triangle
