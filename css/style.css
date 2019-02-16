@@ -5,7 +5,7 @@
            height: auto;
 }
 .not {align-items: center;
-      color: brown;
+      color: Red;
 
 }
 img{width: 33%;
@@ -25,7 +25,6 @@ h2 {color: maroon;
     font-size: 40;
 }
 h3 {color: #006400;
-  #DC143C;
     text-decoration: underline;
     text-align: center;
     font-size: 40;
