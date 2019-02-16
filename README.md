@@ -4,7 +4,7 @@
 ##### Learning JavaScript at Moringa School prep requires the setting up of an application.
 ##### This particular  application tells the user whether their measurements amount to a triangle or not.
 ##### The application also the tells the user which type of triangle it is; whether it is a Right Triangle, Equilateral triangle, Isosceles triangle, Scalene Triangle, Acute Triangle, Obtuse Triangle.  
-##### You can take a look at it and let me know any changes I should make or any suggestions you maybe having or how I should make my portofolio appealing. Thank you in advance.
+##### You can take a look at it and let me know any changes I should make or any suggestions you maybe having or how I should make my functions better and make the website more appealing. Thank you in advance.
 ## BDD
 #### Want to test how I did this project?
 ##### Here are the specs:
@@ -63,3 +63,5 @@
 *JavaScript
 
 *Markdown
+
+### To contact use: https://github.com/AsmaAdan
