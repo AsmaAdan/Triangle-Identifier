@@ -4,26 +4,33 @@
            margin: 9px;
            height: auto;
 }
-.not {float:inherit;
+.not {align-items: center;
       color: red;
 }
 
-body {background-color: #66CDAA;
+body {background-color: #FFF8DC;
+  #66CDAA;
 }
 
-h1 {color: black;
+h1 {color: maroon;
     text-align: center;
-    font-style: italic;
+    font-style: oblique;
     font-size: 48;
 }
-h2 {color:
+h2 {color: maroon;
     text-align: center;
     font-size: 38;
 }
-
-p {font-style: italic;
+h3 {color: red;
+    text-align: center;
+    font-size: 34;
 }
-@media screen and (min-width: 300px) {
+
+p {text-align: center;
+   font-style: italic;
+}
+
+@media screen and (max-width: 10px) {
   body {
     background-color: black;
     color: white;
