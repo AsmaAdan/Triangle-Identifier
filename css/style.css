@@ -25,7 +25,12 @@ h3 {color: red;
     text-align: center;
     font-size: 34;
 }
-
+.output{border-style: solid;
+        border-width: medium;
+        border-color: #D2691E;
+        size: 8;
+        margin-right: 2px;
+}
 p {text-align: center;
    font-style: italic;
 }
