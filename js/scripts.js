@@ -10,20 +10,21 @@ function triangleIdentifier() {
   var typesOfTriangles = ["Equilateral triangle", "Isosceles triangle", "Scalene triangle"];
   var output = document.getElementById("output")
 
-  if (base + height < length || base +length < height || length + height < base){
-    document.getElementById("output").innerHTML="Not a triangle";
+
+  if (base <= 0|| height <= 0|| length <= 0) {
+	   document.getElementById("output").innerHTML="can't make a triangle"; //* Meant to reject detect a zero or a negative value
 }
-  else if (base <= 0|| height <= 0|| length <= 0) {
-	   document.getElementById("output").innerHTML="Not a triangle"; //* Meant to reject detect a zero or a negative value
+  else if (base + height < length || base +length < height || length + height < base){
+  document.getElementById("output").innerHTML="These values don't make a triangle"; //* Meant to reject values which may not make a triangle
 }
   else if (height == base && base == length && height == length) {
-	   document.getElementById("output").innerHTML=typesOfTriangles[0]; //* Meant to detect if it an Equilateral triangle
+	   document.getElementById("output").innerHTML="This is a " + typesOfTriangles[0]; //* Meant to detect if it an Equilateral triangle
  }
   else if ( height == base || height == length || length == base ) {
-	   document.getElementById("output").innerHTML= typesOfTriangles[1]; //* Meant to detect if it is an Isosceles triangle
+	   document.getElementById("output").innerHTML= "This is an " + typesOfTriangles[1]; //* Meant to detect if it is an Isosceles triangle
 }
   else if (height!=base || base!=length || length!=heigh && base + height > length || base +length > height || length + height > base) {
-	   document.getElementById("output").innerHTML=typesOfTriangles[2]; //* Meant to detect if it is a scalene triangle
+	   document.getElementById("output").innerHTML="This is a " + typesOfTriangles[2]; //* Meant to detect if it is a scalene triangle
 }
   else {
 	   document.getElementById("output").innerHTML="Another type of triangle, requires Angle input";
