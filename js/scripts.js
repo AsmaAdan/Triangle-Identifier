@@ -11,10 +11,10 @@ function triangleIdentifier() {
   var output = document.getElementById("output")
 
   if (base + height < length || base +length < height || length + height < base){
-  document.getElementById("output").innerHTML="Not a triangle";
+    document.getElementById("output").innerHTML="Not a triangle";
 }
   else if (base <= 0|| height <= 0|| length <= 0) {
-	document.getElementById("output").innerHTML="Not a triangle"; //* Meant to reject detect a zero or a negative value
+	   document.getElementById("output").innerHTML="Not a triangle"; //* Meant to reject detect a zero or a negative value
 }
   else if (height == base && base == length && height == length) {
 	   document.getElementById("output").innerHTML=typesOfTriangles[0]; //* Meant to detect if it an Equilateral triangle
