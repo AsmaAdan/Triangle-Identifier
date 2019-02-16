@@ -6,7 +6,6 @@
 }
 .not {align-items: center;
       color: Red;
-
 }
 img{width: 33%;
     height: 200px;
@@ -15,7 +14,6 @@ body {background-color: #F5DEB3;
       font-size: 38;
 
 }
-
 h1 {color: #FF4500;
     text-align: center;
     font-size: 48;
@@ -29,11 +27,7 @@ h3 {color: #006400;
     text-align: center;
     font-size: 40;
 }
-.output{border-style: solid;
-        border-width: medium;
-        border-color: #D2691E;
-        margin-right: 2px;
-}
+
 p {text-align: center;
    font-weight: bold;
    font-style: italic;
