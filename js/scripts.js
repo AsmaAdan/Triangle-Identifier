@@ -18,13 +18,13 @@ function triangleIdentifier() {
       document.getElementById("output").innerHTML="These values don't make a triangle"; //* Meant to reject values which may not make a triangle
 }
     else if (height == base && base == length && height == length) {
-	    document.getElementById("output").innerHTML="This is an " + typesOfTriangles[0]+ " (image 2 below)"; //* Meant to detect if it an Equilateral triangle
+	    document.getElementById("output").innerHTML="This is an " + typesOfTriangles[0]+ " (center image)"; //* Meant to detect if it an Equilateral triangle
  }
     else if ( height == base || height == length || length == base ) {
-	    document.getElementById("output").innerHTML= "This is an " + typesOfTriangles[1]+ " (image 1 below)"; //* Meant to detect if it is an Isosceles triangle
+	    document.getElementById("output").innerHTML= "This is an " + typesOfTriangles[1]+ " (image on the left)"; //* Meant to detect if it is an Isosceles triangle
 }
     else if (height!=base || base!=length || length!=heigh && base + height > length || base +length > height || length + height > base) {
-	    document.getElementById("output").innerHTML="This is a " + typesOfTriangles[2]+ " (image 3 below)"; //* Meant to detect if it is a scalene triangle
+	    document.getElementById("output").innerHTML="This is a " + typesOfTriangles[2]+ " (image on the right)"; //* Meant to detect if it is a scalene triangle
 }
     else {
 	    document.getElementById("output").innerHTML="Another type of triangle, requires Angle input";

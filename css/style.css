@@ -1,14 +1,17 @@
 .important{width: 90%;
-           padding: 20px;
+           padding: 25px;
            border: 7px;
            margin: 5px;
-           height: auto;
+
 }
-.not {align-items: center;
+.not{align-items: center;
       color: Red;
 }
+.line{color: red;
+      
+}
 img{width: 33%;
-    height: 200px;
+    height: 150px;
 }
 body {background-color: #F5DEB3;
       font-size: 38;
@@ -16,16 +19,16 @@ body {background-color: #F5DEB3;
 }
 h1 {color: #FF4500;
     text-align: center;
-    font-size: 48;
+    font-size: 40;
 }
 h2 {color: maroon;
     text-align: center;
-    font-size: 40;
+    font-size: 38;
 }
 h3 {color: #006400;
     text-decoration: underline;
     text-align: center;
-    font-size: 40;
+    font-size: 35;
 }
 
 p {text-align: center;
