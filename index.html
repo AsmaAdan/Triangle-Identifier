@@ -1,42 +1,27 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>An app for Triangle Identification</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
-    <h1>Triangle Identifier</h1>
-    <h2>A JavaScript app for finding out about the Type of Triangel</h2>
-
-    <div class="important">
-    <h3>About Triangles</h3>
-    <p>A triangle is a 3-sided polygon sometimes (but not very commonly) called the Trigon.
-     Every triangle has three sides and three angles, some of which may be the same.
-     The sides of a triangle are given special names in the case of a right triangle, with the side opposite the right angle being termed the hypotenuse and the other two sides being known as the legs.
-     All triangles are convex and bicentric. That portion of the plane enclosed by the triangle is called the triangle interior, while the remainder is the exterior.</p>
-     <p><span class= "line"> To find out whether your numbers make a triangle and which type, fill in below:</span></p>
-     </div>
-
-     <div class= "not">
-    <form id="myForm">
-      Base:   <input type ="number" name= "base" id = "base">
-      <br>
-      Height: <input type ="number" name="height" id = "height">
-      <br>
-      Length: <input type ="number" name="length" id = "length">
-      <br>
-      <button type="button" onclick="triangleIdentifier()">Identify</button>
-      <input type="button" onclick="myFunction()" id="res" value="Reset">
-      <p id="output">Identity = ?</p>
-    </form>
-    </div>
-
-      <img src="images/Isosceles.jpeg" alt="An silhouette of a biochemist">
-
-      <img src="images/Equilateral.jpeg" alt="An silhouette of a biochemist">
-
-      <img src="images/Scalene.jpeg" alt="An silhouette of a biochemist">
-
-      <script src="js/scripts.js"></script>
-  </body>
+<head>
+	<title>An app for Triangle Identification</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<h1>Triangle Identifier</h1>
+	<h2>A JavaScript app for finding out about the Type of Triangel</h2>
+	<div class="important">
+		<h3>About Triangles</h3>
+		<p>A triangle is a 3-sided polygon sometimes (but not very commonly) called the Trigon. Every triangle has three sides and three angles, some of which may be the same. The sides of a triangle are given special names in the case of a right triangle, with the side opposite the right angle being termed the hypotenuse and the other two sides being known as the legs. All triangles are convex and bicentric. That portion of the plane enclosed by the triangle is called the triangle interior, while the remainder is the exterior.</p>
+		<p><span class="line">To find out whether your numbers make a triangle and which type, fill in below:</span></p>
+	</div>
+	<div class="not">
+		<form id="myForm" name="myForm">
+			Base: <input id="base" name="base" type="number"><br>
+			Height: <input id="height" name="height" type="number"><br>
+			Length: <input id="length" name="length" type="number"><br>
+			<button onclick="triangleIdentifier()" type="button">Identify</button> <input id="res" onclick="myFunction()" type="button" value="Reset">
+			<p id="output">Identity = ?</p>
+		</form>
+	</div><img alt="An silhouette of a biochemist" src="images/Isosceles.jpeg"> <img alt="An silhouette of a biochemist" src="images/Equilateral.jpeg"> <img alt="An silhouette of a biochemist" src="images/Scalene.jpeg">
+	<script src="js/scripts.js">
+	</script>
+</body>
 </html>

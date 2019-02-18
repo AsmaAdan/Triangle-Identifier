@@ -1,51 +1,53 @@
-.important{width: 90%;
-           padding: 26px;
-           border: 7px;
-           margin: 5px;
-
+.important {
+	width: 90%;
+	padding: 26px;
+	border: 7px;
+	margin: 5px;
 }
-.not{color: red;
-    width: 20%;
-    padding: 26px;
-    border: 7px;
-    margin: auto;
-
+.not {
+	color: red;
+	width: 20%;
+	padding: 26px;
+	border: 7px;
+	margin: auto;
 }
-.line{color: red;
-
+.line {
+	color: red;
 }
-.line2{width: 40;
-
+.line2 {
+	width: 40;
 }
-img{width: 33%;
-    height: 130px;
+img {
+	width: 33%;
+	height: 130px;
 }
-body {background-color: #F5DEB3;
-
-
+body {
+	background-color: #F5DEB3;
 }
-h1 {color: #FF4500;
-    text-align: center;
-    font-size: 38;
-    margin: 3px;
+h1 {
+	color: #FF4500;
+	text-align: center;
+	font-size: 38;
+	margin: 3px;
 }
-h2 {color: maroon;
-    text-align: center;
-    font-size: 34;
+h2 {
+	color: maroon;
+	text-align: center;
+	font-size: 34;
 }
-h3 {color: #006400;
-    text-decoration: underline;
-    text-align: center;
-    font-size: 32;
-    margin: 0px;
+h3 {
+	color: #006400;
+	text-decoration: underline;
+	text-align: center;
+	font-size: 32;
+	margin: 0px;
 }
-
-p {text-align: center;
-   font-weight: bold;
-   font-style: italic;
+p {
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
 }
-
 @media screen and (max-width: 10px) {
-  body {
-    background-color: black;
-    color: white;
+	body {
+		background-color: black;
+		color: white;
