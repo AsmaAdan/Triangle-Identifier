@@ -30,3 +30,6 @@ function triangleIdentifier() {
 	    document.getElementById("output").innerHTML="Another type of triangle, requires Angle input";
 }
 }
+function myFunction() {
+    document.getElementById("myForm").reset();
+}

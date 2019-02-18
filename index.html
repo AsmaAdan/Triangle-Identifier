@@ -18,7 +18,7 @@
      </div>
 
      <div class= "not">
-    <p>
+    <form id="myForm">
       Base:   <input type ="number" name= "base" id = "base">
       <br>
       Height: <input type ="number" name="height" id = "height">
@@ -26,9 +26,11 @@
       Length: <input type ="number" name="length" id = "length">
       <br>
       <button type="button" onclick="triangleIdentifier()">Identify</button>
-
-    <p id="output">Identity = ?</p>
+      <input type="button" onclick="myFunction()" value="Reset">
+      <p id="output">Identity = ?</p>
+    </form>
     </div>
+
       <img src="images/Isosceles.jpeg" alt="An silhouette of a biochemist">
 
       <img src="images/Equilateral.jpeg" alt="An silhouette of a biochemist">
