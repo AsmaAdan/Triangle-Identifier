@@ -64,4 +64,8 @@
 
 *Markdown
 
-### To contact use: https://github.com/AsmaAdan
+### To contact use:
+
+*email: asmaahmed.adan@gmail.com
+
+*github account: https://github.com/AsmaAdan
