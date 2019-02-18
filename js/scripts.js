@@ -32,4 +32,5 @@ function triangleIdentifier() {
 }
 function myFunction() {
     document.getElementById("myForm").reset();
+
 }
